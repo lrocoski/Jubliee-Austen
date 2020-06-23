@@ -1,0 +1,183 @@
+/* font-family: 'Lora', serif;
+
+font-family: 'Source Sans Pro', sans-serif; */
+
+/* Base styles */
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #2b2b2b;
+}
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/* HEADER SECTION */
+
+header {
+    height: 800px;
+    background: url('../img/hero.png') #f0f0f0;
+    background-size: cover;
+    background-position: center;
+}
+header h1 {
+    padding: 65px 0 65px 25px;
+    font-family: 'Lora', serif;
+    font-size: 30px;
+    color: #bbc085;
+}
+
+nav {
+    float: right;
+    padding: 75px 25px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    color: #9b9b9b;
+    padding-left: 80px;
+}
+header h2 {
+    width: auto;
+    clear: both;
+    font-family: 'Lora', serif;
+    font-size: 70px;
+    line-height: 1.5;
+    color: #9b9b9b;
+    padding: 20px 0 20px 25px;
+}
+
+header h2 span {
+    color: #2b2b2b;
+}
+
+
+
+
+/* ABOUT SECTION */
+
+#about .full-width {
+    padding: 60px 0;
+}
+
+#about h2 {
+    font-family: 'Lora', serif;
+    font-size: 25px;
+    padding: 0 60px;
+    font-weight: 700;
+}
+
+#about p {
+    font-size: 20px;
+    color: #9b9b9b;
+    padding: 0 60px;
+    line-height: 2;
+}
+
+/* WORK SECTION */
+
+#work {
+    background: #f9ceb7;
+    text-align: center;
+}
+#work .full-width {
+    padding: 115px 0;
+}
+
+#work img {
+    padding-bottom: 30px;
+}
+
+#work h3 {
+    font-size: 25px;
+    line-height: 1.5;
+    width: 400px;
+    margin: 0 auto;
+}
+#work p {
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    line-height: 2;
+    padding: 0 50px;
+}
+
+/* CONTACT section */
+#contact {
+    background: #ebebeb;
+}
+
+#contact .full-width {
+    padding: 110px 0;
+}
+#contact img#contact-img {
+    margin-left: 25px;
+    border: 12px solid #ffffff;
+}
+
+#contact h2, #contact .email-header, #contact .socialmedia-header, #contact ul {
+    padding-left: 115px;
+}
+
+#contact .envelope {
+    padding: 0 10px 0 115px;
+}
+
+#contact h2 {
+    font-family: 'Lora', serif;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 1.5;
+}
+
+#contact .email-header {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: -30px 0 5px 0;
+}
+
+#contact .socialmedia-header {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.5;
+    margin: 40px 0 0 0;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #c49075;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+#contact ul {
+    list-style: none;
+}
+
+#contact ul li {
+    display: inline;
+}
+
+#contact ul img {
+    font-size: 32px;
+    padding-right: 48px;
+}
